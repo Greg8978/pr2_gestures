@@ -1,0 +1,17 @@
+r_shoulder_pan_joint -0.526468 -0.526468 -0.526468 -0.526468
+l_shoulder_pan_joint 0.526468 0.526468 0.526468 0.526468
+r_shoulder_lift_joint 0.896648 0.896648 0.896648 0.896648
+l_shoulder_lift_joint 0.896648 0.896648 0.896648 0.896648
+r_upper_arm_roll_joint -0.484289 -0.484289 -0.484289 -0.484289
+l_upper_arm_roll_joint 0.484289 0.484289 0.484289 0.484289
+r_elbow_flex_joint -1.936571 -1.936571 -1.936571 -1.936571
+l_elbow_flex_joint -1.936571 -1.936571 -1.936571 -1.936571
+r_forearm_roll_joint -1.286861 -1.286861 -1.286861 -1.286861
+l_forearm_roll_joint 1.286861 1.286861 1.286861 1.286861
+r_wrist_flex_joint -1.369456 -1.369456 -1.369456 -1.369456
+l_wrist_flex_joint -1.369456 -1.369456 -1.369456 -1.369456
+r_wrist_roll_joint -0.7 -0.7 -0.7 -0.7
+l_wrist_roll_joint 0.7 0.7 0.7 0.7
+head_pan_joint -0.475953 -0.475953 -0.475953 -0.475953
+head_tilt_joint 0.321594 -0.346727 0.321594 -0.346727
+speed 1.5 0.8 0.8 0.8

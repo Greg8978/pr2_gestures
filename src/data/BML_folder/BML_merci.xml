@@ -1,0 +1,6 @@
+<bml>
+	<synchronize>
+		<speech offset="2.5" type="mp3">merci</speech>
+		<behavior offset="0.0">merci</behavior>
+	</synchronize>
+</bml>

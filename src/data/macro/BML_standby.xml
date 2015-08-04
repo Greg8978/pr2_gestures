@@ -1,0 +1,5 @@
+<bml>
+	<synchronize>
+		<behavior offset="0.0">standby</behavior>
+	</synchronize>
+</bml>

@@ -1,0 +1,40 @@
+<bml>
+	<synchronize>
+		<speech offset="1.5" type="mp3">oui</speech>
+		<speech offset="3.0" type="mp3">compris</speech>
+		<behavior>oui</behavior>
+		<behavior offset="4.0">standby</behavior>
+	</synchronize>
+	<synchronize>
+		<speech offset="6.0" type="mp3">tiens</speech>
+		<behavior >tiens</behavior>
+	</synchronize>
+	<synchronize>
+		<behavior >standby</behavior>
+	</synchronize>
+	<synchronize>
+		<speech offset="6.0" type="mp3">tiens</speech>
+		<behavior param="45">tiens</behavior>
+	</synchronize>
+	<synchronize>
+		<behavior >standby</behavior>
+	</synchronize>
+	<synchronize>
+		<speech offset="3.0" type="mp3">regarde</speech>
+		<behavior param="0.0">regarde</behavior>
+	</synchronize>
+	<synchronize>
+		<behavior >standby</behavior>
+	</synchronize>
+	<synchronize>
+		<speech offset="3.0" type="mp3">regarde</speech>
+		<behavior param="-30">regarde</behavior>
+	</synchronize>
+	<synchronize>
+		<speech offset="2.5" type="mp3">merci</speech>
+		<behavior>merci</behavior>
+	</synchronize>
+	<synchronize>
+		<behavior >standby</behavior>
+	</synchronize>
+</bml>

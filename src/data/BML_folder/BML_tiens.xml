@@ -1,0 +1,6 @@
+<bml>
+	<synchronize>
+		<speech offset="6.0" type="mp3">tiens</speech>
+		<behavior offset="0.0">tiens</behavior>
+	</synchronize>
+</bml>

@@ -1,0 +1,12 @@
+<bml>
+	<synchronize>
+		<behavior offset="0.0">standby</behavior>
+	</synchronize>
+	<synchronize>
+		<speech offset="3.0" type="mp3">regarde</speech>
+		<behavior offset="0.0">regarde</behavior>
+	</synchronize>
+	<synchronize>
+		<behavior offset="2.0">standby</behavior>
+	</synchronize>
+</bml>

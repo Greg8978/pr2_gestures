@@ -1,0 +1,8 @@
+<bml>
+	<synchronize>
+		<speech offset="2.0" type="mp3">non</speech>
+		<speech offset="3.5" type="mp3">jesaispas</speech>
+		<speech offset="5.0" type="mp3">jaipastrouve</speech>
+		<behavior offset="0.0">jesaispas</behavior>
+	</synchronize>
+</bml>

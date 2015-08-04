@@ -1,0 +1,6 @@
+<bml>
+	<synchronize>
+		<speech offset="1.0" type="mp3">compris</speech>
+		<behavior offset="0.0">compris</behavior>
+	</synchronize>
+</bml>

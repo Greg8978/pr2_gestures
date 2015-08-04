@@ -1,0 +1,8 @@
+<bml>
+	<synchronize>
+		<speech offset="1.0" param="$1 $2" type="text">$1 tiens $2</speech>
+		<speech offset="2.0" param="$1 $2" type="text">$2 regarde $1</speech>
+		<speech offset="3.0" param="$1 $2" type="text">$1 attends $2</speech>
+		<behavior>jesaispas</behavior>
+	</synchronize>
+</bml>

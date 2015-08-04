@@ -1,0 +1,6 @@
+string bml_file_name
+string[] list_of_speech_params
+[][] list_of_adjustments
+---
+bool ok
+cf. http://wiki.ros.org/action/show/msg?action=show&redirect=ROS%2FMessage_Description_Language

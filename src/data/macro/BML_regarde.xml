@@ -1,0 +1,6 @@
+<bml>
+	<synchronize>
+		<speech offset="3.0" type="mp3">regarde</speech>
+		<behavior offset="0.0">regarde</behavior>
+	</synchronize>
+</bml>

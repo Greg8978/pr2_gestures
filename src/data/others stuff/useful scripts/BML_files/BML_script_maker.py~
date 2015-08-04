@@ -1,0 +1,59 @@
+
+import glob
+
+
+output_filename = 'kill_bis'
+
+joint_names = ["shoulder_pan", 
+               "shoulder_lift",
+               "upper_arm_roll",
+               "forearm_roll",
+               "elbow_flex", 
+               "wrist_flex", 
+               "wrist_roll" ]
+
+joint_names_not_sym = ["pan","tilt"]
+
+r = [[0.565080,0.201616,-0.481883,-1.099842,-1.602440,-1.172360,-0.287761],[0.139023,0.275891,0.073265,0.63319,-2.076130,-1.276216,-0.025968],[0.139023,0.275891,0.073265,0.63319,-2.076130,-1.276216,-0.025968]]
+l = [[1.667636,1,2,0.005762,-0.479599,-0.096609,-0.035368],[1.666558,1,2,0.005762,-0.483942,-0.096740,-0.035325],[1.666558,1,2,0.005762,-0.483942,-0.096740,-0.035325]]
+speed = [2,1,1]
+head = [[-0.35,-0.15],[0.35,-0.15],[0.35,-0.15]] 
+
+
+class Main:
+
+    def __init__(self):
+        self._joint_head_states = zip(*head)
+        self._joint_r_states = zip(*r)
+        self._joint_l_states = zip(*l)
+        self._speed = speed
+
+    def main(self):
+
+        myfile = open('./output/'+output_filename+'.txt', "w")
+        
+        for joint_name,joint_r_states,joint_l_states in zip(joint_names,self._joint_r_states,self._joint_l_states):
+            myfile.write('r_'+joint_name+'_joint')
+            for r_state in joint_r_states:
+                myfile.write(' %s' % r_state)
+            myfile.write('\n')
+            myfile.write('l_'+joint_name+'_joint')
+            for l_state in joint_l_states:
+                myfile.write(' %s' %l_state)
+            myfile.write('\n')
+        for joint_name, joint_head_states in zip(joint_names_not_sym,self._joint_head_states):
+            myfile.write('head_%s_joint' % joint_name)
+            for h_state in joint_head_states:
+                myfile.write(' %s' % h_state)
+            myfile.write('\n')
+        myfile.write('speed')
+        for speed_time in self._speed:
+            myfile.write(' %s' % speed_time)
+        myfile.write('\n')
+        myfile.close()
+        print('Done : %s' % output_filename)
+        
+
+if __name__ == '__main__': 
+    Main().main()
+        

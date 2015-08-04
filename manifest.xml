@@ -1,0 +1,21 @@
+<package>
+  <description brief="javier_trajectory">
+
+     javier_trajectory
+
+  </description>
+  <author>Javier</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/javier_trajectory</url>
+  <depend package="actionlib"/>
+  <depend package="rospy"/>
+  <depend package="pr2_controllers_msgs"/>
+  <depend package="trajectory_msgs"/>
+  <depend package="pr2_mechanism_msgs"/>
+  <depend package="actionlib_msgs"/>  
+  <depend package="pr2_common_action_msgs"/>
+
+</package>
+
+

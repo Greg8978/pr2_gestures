@@ -1,0 +1,20 @@
+<bml>
+	<synchronize>
+		<speech offset="5.0" type="mp3">tiens</speech>
+		<behavior>tiens</behavior>
+	</synchronize>
+	<synchronize>
+		<behavior>standby</behavior>
+	</synchronize>
+	<synchronize>
+		<speech offset="5.0" type="mp3">tiens</speech>
+		<behavior param="-20">tiens</behavior>
+	</synchronize>
+	<synchronize>
+		<behavior>standby</behavior>
+	</synchronize>
+	<synchronize>
+		<speech offset="5.0" type="mp3">tiens</speech>
+		<behavior param="45">tiens</behavior>
+	</synchronize>
+</bml>

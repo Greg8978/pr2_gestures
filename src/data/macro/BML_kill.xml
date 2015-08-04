@@ -1,0 +1,6 @@
+<bml>
+	<synchronize>
+		<speech offset="2.0" type="mp3">kill</speech>
+		<behavior offset="0.0">kill</behavior>
+	</synchronize>
+</bml>

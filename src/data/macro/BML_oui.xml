@@ -1,0 +1,6 @@
+<bml>
+	<synchronize>
+		<speech offset="1.5" type="mp3">oui</speech>
+		<behavior offset="0.0">oui</behavior>
+	</synchronize>
+</bml>
